@@ -31,48 +31,48 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  .x05{
+  &.x05{
     font-size: $glyphicons-halflings-font-base-size / 2;
   }
-  .x2{
+  &.x2{
     font-size: $glyphicons-halflings-font-base-size * 2;
   }
-  .x3{
+  &.x3{
     font-size: $glyphicons-halflings-font-base-size * 3;
   }
-  .x4{
+  &.x4{
     font-size: $glyphicons-halflings-font-base-size * 4;
   }
-  .x5{
+  &.x5{
     font-size: $glyphicons-halflings-font-base-size * 5;
   }
-  .x6{
+  &.x6{
     font-size: $glyphicons-halflings-font-base-size * 6;
   }
-  .x7{
+  &.x7{
     font-size: $glyphicons-halflings-font-base-size * 7;
   }
-  .x8{
+  &.x8{
     font-size: $glyphicons-halflings-font-base-size * 8;
   }
   
   
   // Light
-  .light{
+  &.light{
     &:before{
       color:#f2f2f2
     }
   }
   
   // Drop shadow
-  .drop{
+  &.drop{
     &:before{
       text-shadow: -1px 1px 3px rgba(0,0,0,0.3);
     }  
   }
   
   // Horizontal Flip
-  .flip{
+  &.flip{
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -80,7 +80,7 @@
     filter: FlipH;
     -ms-filter: "FlipH";
   }
-  .flipv{
+  &.flipv{
     -moz-transform: scaleY(-1);
     -o-transform: scaleY(-1);
     -webkit-transform: scaleY(-1);
@@ -90,19 +90,19 @@
   }
   
   // Rotate
-  .rotate90{
+  &.rotate90{
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
   }
-  .rotate180{
+  &.rotate180{
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
   }
-  .rotate270{
+  &.rotate270{
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
     -ms-transform: rotate(270deg);

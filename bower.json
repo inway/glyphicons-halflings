@@ -5,7 +5,7 @@
     "Sebastian Podjasek"
   ],
   "description": "GLYPHICONS is a library of precisely prepared monochromatic icons and symbols, created with an emphasis to simplicity and easy orientation.",
-  "main": "css/glyphicons.css",
+  "main": "css/glyphicons-halflings.css",
   "moduleType": [
     "globals"
   ],

@@ -36,4 +36,10 @@ After that you can include this in `bootstrap.scss` from Boostrap 4 source tree:
 @include "glyphicons-halflings"
 ```
 
+You also can set the font base path by setting the `$glyphicons-halflings-font-path`:
+
+```Sass
+$glyphicons-halflings-font-path: '../fonts' !default;
+```
+
 And compile.
